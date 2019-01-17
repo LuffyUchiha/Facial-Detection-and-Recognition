@@ -45,9 +45,7 @@ def opti_face(img):
 	faces=detect_face(img)
 	opt_face=[]
 	for i in faces:
-		print("Ori")
 		print(i)
-		print("se")
 		draw_rect(img,i)
 		cv2.imshow("ff",img)
 		cv2.waitKey(0)
